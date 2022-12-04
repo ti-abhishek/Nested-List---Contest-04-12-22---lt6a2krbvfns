@@ -155,7 +155,11 @@ const states = [
 ];
 
 function App() {
-  return <div id="main"></div>;
+  return (
+  <div id="main">
+     < State states = {states} />
+  </div> 
+  );
 }
 
 export default App;
